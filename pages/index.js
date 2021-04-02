@@ -7,11 +7,19 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Create Next App</title>
+        <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <h1 className={`${heading} ${fontStyle}`}>Welcome Home</h1>
+      <div className="container">
+        <div className="row">
+          <div className="column__12">
+            <h1>The World's Most Popular Way to Buy,
+            Hold, and Use Crypto</h1>
+            <p>Automated. Precise. Efficient.</p>
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }
